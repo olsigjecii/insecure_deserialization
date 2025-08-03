@@ -1,4 +1,4 @@
-# Lesson: Insecure Deserialization in Rust
+# Lesson: Insecure Deserialization in Rust 🦀
 
 In this lesson, we explore the dangers of insecure deserialization, a vulnerability where an application blindly trusts and processes serialized data from a client without proper validation. We will demonstrate this using a Rust web application built with the actix_web framework, showing how an attacker can manipulate the application's state and escalate privileges. Finally, we will implement a robust mitigation using features provided by the serde library.
 
